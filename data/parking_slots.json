@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Slot P1",
+    "slot_type": "car",
+    "zone": "North Lot",
+    "distance_m": 150,
+    "status": "free",
+    "allowed_users": [
+      "student",
+      "staff",
+      "visitor"
+    ],
+    "congestion": 1
+  },
+  {
+    "name": "Slot P2",
+    "slot_type": "large bay",
+    "zone": "Main Lot",
+    "distance_m": 80,
+    "status": "free",
+    "allowed_users": [
+      "student",
+      "staff",
+      "visitor"
+    ],
+    "congestion": 2
+  },
+  {
+    "name": "Slot P3",
+    "slot_type": "car",
+    "zone": "Staff Lot",
+    "distance_m": 40,
+    "status": "free",
+    "allowed_users": [
+      "staff"
+    ],
+    "congestion": 0
+  }
+]
